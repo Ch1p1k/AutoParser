@@ -1,0 +1,25 @@
+# Виртуальное окружение
+venv/
+ENV/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и временные файлы
+logs/
+*.log
+
+# Результаты парсинга (кроме .gitkeep)
+results/*
+!results/.gitkeep
+
+# Служебные файлы ОС
+.DS_Store
+.vscode/
+.idea/
+
+# Настройки и прокси
+proxies.txt
